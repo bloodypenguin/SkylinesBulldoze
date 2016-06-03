@@ -39,7 +39,6 @@
     <Compile Include="BetterBulldozeTool.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Log.cs" />
     <Compile Include="Mod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
