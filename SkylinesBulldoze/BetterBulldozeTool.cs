@@ -59,7 +59,7 @@ namespace SkylinesBulldoze
                     bulldozeButton.relativePosition.x + bulldozeButton.width / 2.0f - mainButton.width - bulldozeButton.width,
                     bulldozeButton.relativePosition.y + bulldozeButton.height / 2.0f - mainButton.height / 2.0f
                 );
-                if (mode == LoadMode.NewGame || mode == LoadMode.LoadGame)
+                if (mode == LoadMode.NewGame || mode == LoadMode.LoadGame || mode == LoadMode.NewGameFromScenario)
                 {
                     mainButton.normalBgSprite = "ZoningOptionMarquee";
                     mainButton.focusedFgSprite = "ToolbarIconGroup6Focused";
@@ -89,7 +89,7 @@ namespace SkylinesBulldoze
                 cbTrees = addCheckbox(marqueeBulldozePanel, 20, "Trees");
                 cbProps = addCheckbox(marqueeBulldozePanel, 45, "Props");
                 cbBuildings = addCheckbox(marqueeBulldozePanel, 70, "Buildings");
-                cbNodes = addCheckbox(marqueeBulldozePanel, 95, "Networks");
+                cbNodes = addCheckbox(marqueeBulldozePanel, 95, "Nodes");
                 cbBuildings.isChecked = false;
                 cbNodes.isChecked = false;
 
